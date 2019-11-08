@@ -90,12 +90,12 @@ ul {
   list-style-type: none;
 }
 
-section {
+label {
   padding: 15px;
   text-align: left;
 }
 
-section [type=radio] {
+label [type=radio] {
   cursor: pointer;
 }
 
