@@ -127,19 +127,27 @@ function generateQuestion() {
     <form><fieldset class = 'answerOption'>
 
     <section role="answerOption">
-    <input type='radio' value="${store[questionNum].answers[0]}" name="option" required><span> ${store[questionNum].answers[0]}</span>
+    <label for="ans1">
+    <input id="ans1" type='radio' value="${store[questionNum].answers[0]}" name="option" required><span> ${store[questionNum].answers[0]}</span>
+    </label>
     </section>
 
     <section role="answerOption">
-    <input type='radio' value="${store[questionNum].answers[1]}" name="option" required><span> ${store[questionNum].answers[1]}</span>
+    <label for="ans2">
+    <input id="ans2" type='radio' value="${store[questionNum].answers[1]}" name="option" required><span> ${store[questionNum].answers[1]}</span>
+    </label>
     </section>
 
     <section role="answerOption">
-    <input type='radio' value="${store[questionNum].answers[2]}" name="option" required><span> ${store[questionNum].answers[2]}</span>
+    <label for="ans3">
+    <input id="ans3" type='radio' value="${store[questionNum].answers[2]}" name="option" required><span> ${store[questionNum].answers[2]}</span>
+    </label>
     </section>
 
     <section role="answerOption">
-    <input type='radio' value="${store[questionNum].answers[3]}" name="option" required><span> ${store[questionNum].answers[3]}</span>
+    <label for="ans4">
+    <input id="ans4" type='radio' value="${store[questionNum].answers[3]}" name="option" required><span> ${store[questionNum].answers[3]}</span>
+    </label>
     </section>
 
     <button type='submit' class="submitButton">Submit</button>
